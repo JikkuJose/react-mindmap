@@ -37,19 +37,21 @@ render(
 ![img](https://raw.githubusercontent.com/learn-anything/img/master/react-mindmap-example.png)
 
 
-## Testing
-To test this repository run these commands
+## Development
+
+Use the [storybook][storybook] for the development.
 
 ```
 git clone https://github.com/learn-anything/react-mindmap
 cd react-mindmap
-npm install && npm run test
+yarn install && yarn run storybook
 ```
 
-and connect to http://localhost:3000/
+And connect to storybook via: http://localhost:6006
 
 
 ## Parser
+
 This repo also has a parser that automates the conversion of JSON maps from MindNode
 to the format used by this component. To use it run:
 
@@ -89,6 +91,7 @@ The possible attributes are:
 - **note**: note that will be visible on hover
 
 ### connections
+
 Array of objects used to render connections. Below an example of the connection
 structure.
 
@@ -111,6 +114,7 @@ The possible attributes are:
 (if not specified the connection will be straight)
 
 ### subnodes
+
 Array of objects used to render subnodes. The structure is the same as for nodes
 with two additional attributes:
 
@@ -119,6 +123,7 @@ with two additional attributes:
 
 
 ## Styling
+
 Here's a list of all CSS classes for styling:
 
 - **.mindmap-svg**: main `svg` element containing the map;
@@ -131,5 +136,7 @@ Here's a list of all CSS classes for styling:
 
 
 ## Contributing
-If you want a new feature added, you find bugs or you want to help making some changes,
-feel free to open an issue or submit a pull request. Any help would be greatly appreciated :heart:
+
+Feel free to open an issue or submit a pull request. Any help would be greatly appreciated :heart:
+
+[storybook]: https://storybook.js.org/
