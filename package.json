@@ -1,7 +1,6 @@
 {
-  "name": "jj-react-mindmap",
-  "version": "0.1.0",
-  "private": true,
+  "name": "react-mindmap",
+  "version": "2.1.0",
   "description": "React component for rendering mind maps",
   "license": "MIT",
   "contributors": [
@@ -12,8 +11,8 @@
     }
   ],
   "files": [
-    "dist",
-    "src"
+    "dist/",
+    "src/"
   ],
   "main": "src/index.js",
   "dependencies": {
